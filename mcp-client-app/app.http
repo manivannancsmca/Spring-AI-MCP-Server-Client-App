@@ -1,0 +1,190 @@
+### Base URL
+@host=http://localhost:8080
+
+############################################################
+### Create Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Add a book titled "Dune" by Frank Herbert, published in 1965, price 19.99
+
+###
+
+############################################################
+### Create Another Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Add a book titled "Spring Boot in Action" by Craig Walls, published in 2024, price 49.99
+
+###
+
+############################################################
+### Create Another Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Add a book titled "Effective Java" by Joshua Bloch, published in 2018, price 59.99
+
+###
+
+############################################################
+### List All Books
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+List all the books currently in the library
+
+###
+
+############################################################
+### Get Book By ID
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Get the details of book with id 1
+
+###
+
+############################################################
+### Search Books By Author
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Find books written by Frank Herbert
+
+###
+
+############################################################
+### Search Books By Partial Author Name
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Show all books written by Craig
+
+###
+
+############################################################
+### Update Book Price
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Update book id 1 and change the price to 24.99
+
+###
+
+############################################################
+### Update Multiple Fields
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Update book id 2. Change the title to "Spring Boot 3.5", published year to 2026 and price to 69.99
+
+###
+
+############################################################
+### Delete Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Delete the book with id 1
+
+###
+
+############################################################
+### Delete Non-Existing Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Delete the book with id 999
+
+###
+
+############################################################
+### Search Unknown Author
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Find books written by Unknown Author
+
+###
+
+############################################################
+### Count Books
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+How many books are currently available in the library?
+
+###
+
+############################################################
+### List Books Sorted By Price
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+List all books ordered by price
+
+###
+
+############################################################
+### Most Expensive Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Which is the most expensive book in the library?
+
+###
+
+############################################################
+### Cheapest Book
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Which is the cheapest book in the library?
+
+###
+
+############################################################
+### Invalid Request
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Create a new book
+
+###
+
+############################################################
+### Greeting
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+Hello
+
+###
+
+############################################################
+### Help
+############################################################
+POST {{host}}/api/chat
+Content-Type: text/plain
+
+What operations can you perform on the books database?
