@@ -47,7 +47,7 @@ List all the books currently in the library
 POST {{host}}/api/chat
 Content-Type: text/plain
 
-Get the details of book with id 1
+Get the details of book with id 2
 
 ###
 
@@ -57,7 +57,7 @@ Get the details of book with id 1
 POST {{host}}/api/chat
 Content-Type: text/plain
 
-Find books written by Frank Herbert
+Find books written by Robert C. Martin
 
 ###
 
