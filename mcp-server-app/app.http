@@ -1,6 +1,7 @@
 ### Base URL
 @host=http://localhost:8081/api/v1/books
 
+
 ############################################################
 ### Create Book
 ############################################################
@@ -8,9 +9,9 @@ POST {{host}}
 Content-Type: application/json
 
 {
-  "title": "Clean Architecture",
-  "author": "Robert C. Martin",
-  "isbn": "9780134494166",
+  "title": "Clean hello",
+  "author": "Robert C. Mani",
+  "isbn": "123456789",
   "publishedYear": 2017,
   "price": 52.00
 }
@@ -27,7 +28,7 @@ GET {{host}}
 ############################################################
 ### Get Book By Id
 ############################################################
-GET {{host}}/1
+GET {{host}}/2
 
 ###
 
