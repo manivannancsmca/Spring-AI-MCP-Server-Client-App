@@ -32,3 +32,4 @@ logging:
   level:
     org.springframework.ai.mcp: DEBUG
     org.springframework.ai.chat.client: DEBUG
+    
